@@ -1,0 +1,46 @@
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Build artifacts
+build/
+*.egg-info/
+pip-wheel-metadata/
+
+# CMake / Ninja
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# IDE / tooling
+.vscode/
+.idea/
+*.code-workspace
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local envs
+.venv/
+.env
+
+# Generated logs
+*.log
+README_build.md
+README_dev.md
